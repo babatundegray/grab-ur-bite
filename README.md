@@ -1,6 +1,6 @@
 # grab-ur-bite
 
-> My bee&#39;s knees Nuxt.js project
+> Grab Your Bite
 
 ## Build Setup
 
