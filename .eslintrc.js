@@ -9,15 +9,33 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
-    'prettier',
+    'eslint:recommended',
     'prettier/vue',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended'
   ],
   plugins: [
-    'prettier'
+    'vue'
   ],
   // add your custom rules here
   rules: {
+    semi: [2, 'never'],
+    'no-console': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'prettier/prettier': ['error', { semi: false }],
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'any'
+        }
+      }
+    ],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto'
+      }
+    ]
   }
 }
