@@ -1,6 +1,6 @@
 # grab-ur-bite
 
-> Grab Your Bite
+> Grab your bite seeks to provide a better and faster way of getting your food delivered to your doorstep.
 
 ## Build Setup
 
