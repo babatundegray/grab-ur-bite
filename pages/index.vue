@@ -1,19 +1,90 @@
+/* eslint-disable prettier/prettier */
 <template>
-  <div class="_container">
-    <div class="container">
-      <div class="wrapper">
-        <div class="row header pt-3">
-          <div class="">Grab Ur Bite</div>
-          <div>
-            <button class="_btn">LOG IN</button>
-            <button class="_btn">SIGN UP</button>
+  <div>
+    <div class="_container">
+      <div class="container">
+        <div class="wrapper">
+          <div class="row header pt-3">
+            <div class>
+              <b>Grab Ur Bite</b>
+            </div>
+            <div>
+              <button class="_btn">LOG IN</button>
+              <button class="_btn">SIGN UP</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="para-text">
+              <span>Grab your bite have it</span>
+              <br />
+              <span>delivered to your doorsteps</span>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6 search">
+              <div class="_search">
+                <label for="address">Input your address</label>
+                <input type="text" placeholder="e.g Lekki" class="input" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container">
+      <div class="row _pd">
+        <div class="col-md-6">
+          <h2>
+            <span class="headings">
+              Save big on every
+              <br />order. Join Unlimited.
+            </span>
+          </h2>
+          <p>
+            Unlimited free deliveries. Reduced fees on eligible orders.
+            <br />Exclusive Exclusive deals. Try Postmates Unlimited now for
+            free, cancel anytime
+          </p>
+          <button class="__btn">Try Unlimited Free</button>
+        </div>
 
-      <div class="para-text">
-        <span>Grab Your Bite Have</span>
-        <span>It Delivered To Your Doorsteps</span>
+        <div class="col-md-6 wd">
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80"
+            alt
+          />
+        </div>
+      </div>
+
+      <div class="row _pd">
+        <div class="col-md-6 wd">
+          <img
+            class="img"
+            src="https://img.favpng.com/22/24/16/iphone-x-portable-network-graphics-mobile-app-apple-iphone-8-ios-png-favpng-4eVZ4jgCneECZq4KNU5xSM3wi.jpg"
+            alt
+          />
+        </div>
+        <div class="col-md-6 wd">
+          <h2>
+            <span class="headings">
+              Order from local
+              <br />favorites near you.
+            </span>
+          </h2>
+          <p>
+            Whatever you want, we get it. Order delivery for
+            <br />or with friends and watch in real-time as your Postmate brings
+            you all the things you love.
+          </p>
+
+          <input
+            type="number"
+            class="__input"
+            placeholder="Enter Your Phone Number"
+          />
+          <button class="__btnApp">Get The App</button>
+        </div>
       </div>
     </div>
   </div>
@@ -54,7 +125,90 @@ export default {
   color: #35495e;
   letter-spacing: 1px;
 }
+.headings {
+  font-size: 48px;
+  line-height: 50px;
+  text-align: left;
+}
 
+.__input {
+  border-radius: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none !important;
+  font-family: 'PostmatesStd', Helvetica Neue, Helvetica;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.14px;
+  -moz-letter-spacing: 0.14px;
+  -ms-letter-spacing: 0.14px;
+  letter-spacing: 0.14px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: inherit;
+  color: #2d3138;
+  width: 100%;
+  caret-color: #000;
+  font-family: 'PostmatesStd', Helvetica Neue, Helvetica;
+  font-size: 16px;
+  -webkit-letter-spacing: 0.14px;
+  -moz-letter-spacing: 0.14px;
+  -ms-letter-spacing: 0.14px;
+  letter-spacing: 0.14px;
+  font-weight: 400;
+  line-height: normal;
+  -webkit-letter-spacing: -0.5px;
+  -moz-letter-spacing: -0.5px;
+  -ms-letter-spacing: -0.5px;
+  letter-spacing: -0.5px;
+  padding: 22px;
+  border: 1px solid rgba(217, 219, 224, 0.5);
+  width: 100%;
+  color: #000;
+}
+
+.__btnApp {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  font-family: 'PostmatesStd', Helvetica Neue, Helvetica;
+  font-size: 12px;
+  -webkit-letter-spacing: 0.72px;
+  -moz-letter-spacing: 0.72px;
+  -ms-letter-spacing: 0.72px;
+  letter-spacing: 0.72px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: normal;
+  cursor: pointer;
+  text-align: center;
+  height: 56px;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: 28px;
+  background-color: #00cc99;
+  color: #fff;
+  height: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 29px;
+  padding-right: 29px;
+  width: 165px;
+}
+._pd {
+  padding-top: 115px;
+  padding-bottom: 135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
 .subtitle {
   font-weight: 300;
   font-size: 42px;
@@ -62,11 +216,16 @@ export default {
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-
+.wd {
+  max-width: 452px;
+}
 .links {
   padding-top: 15px;
 }
 
+.img {
+  width: 400px;
+}
 .button--green {
   display: inline-block;
   border-radius: 4px;
@@ -76,8 +235,8 @@ export default {
   padding: 10px 30px;
 }
 ._container {
-  background: gold;
-  height: 80vh;
+  background: #ffa81d;
+  height: 70vh;
 }
 .button--green:hover {
   color: #fff;
@@ -98,7 +257,11 @@ export default {
   color: #fff;
   background-color: #35495e;
 }
-
+p {
+  margin-top: 15px !important;
+  margin-bottom: 23px !important;
+  opacity: 0.8;
+}
 .header {
   height: 60px;
   padding: 6px;
@@ -109,7 +272,8 @@ export default {
 
 .wrapper {
   height: 100%;
-  background: gold;
+  background: #ffa81d;
+  margin-bottom: 15px;
 }
 
 ._btn {
@@ -127,5 +291,73 @@ export default {
   border-radius: 5px;
   outline: none;
   border: none;
+}
+
+.para-text {
+  padding-top: 100px;
+}
+.para-text span {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.search {
+  padding: 32px 32px 40px 32px;
+  background: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+._search {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 12px 16px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05), inset 0 0 0 100px #fff;
+  border: 1px solid #e8ebeb;
+}
+
+.__btn {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  -webkit-letter-spacing: 0.72px;
+  -moz-letter-spacing: 0.72px;
+  -ms-letter-spacing: 0.72px;
+  letter-spacing: 0.72px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: normal;
+  cursor: pointer;
+  text-align: center;
+  height: 56px;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: 28px;
+  background-color: #00cc99;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 265px;
+  height: 48px;
 }
 </style>

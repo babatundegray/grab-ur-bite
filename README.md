@@ -8,6 +8,12 @@
 # install dependencies
 $ npm install
 
+# eslint
+$ npm run lint
+
+# eslint fix
+$ npm run lintfix
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
@@ -19,4 +25,11 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Tools and Libraries used in this App
+
+- Eslint
+- Prettier
+- Jest
+- Boostrap
+- Jquery
+
