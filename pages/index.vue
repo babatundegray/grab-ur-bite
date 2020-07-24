@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 <template>
   <div>
     <div class="_container">
@@ -33,7 +32,7 @@
     </div>
     <div class="container">
       <div class="row _pd">
-        <div class="col-md-6">
+        <div class="col-md-6 npd">
           <h2>
             <span class="headings">
               Save big on every
@@ -58,12 +57,8 @@
       </div>
 
       <div class="row _pd">
-        <div class="col-md-6 wd">
-          <img
-            class="img"
-            src="https://img.favpng.com/22/24/16/iphone-x-portable-network-graphics-mobile-app-apple-iphone-8-ios-png-favpng-4eVZ4jgCneECZq4KNU5xSM3wi.jpg"
-            alt
-          />
+        <div class="col-md-6 wd npd">
+          <img class="img" src="img/phone.png" alt />
         </div>
         <div class="col-md-6 wd">
           <h2>
@@ -78,12 +73,279 @@
             you all the things you love.
           </p>
 
-          <input
-            type="number"
-            class="__input"
-            placeholder="Enter Your Phone Number"
-          />
+          <input type="number" class="__input" placeholder="Enter Your Phone Number" />
           <button class="__btnApp">Get The App</button>
+        </div>
+      </div>
+
+      <div class="row _pd">
+        <div class="col-md-12 mb-3">
+          <h5 class="_op">Choose a city</h5>
+        </div>
+        <div class="col-md-3">
+          <div class="__card">
+            <h5>Nigeria</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1C1C1C"
+              width="15"
+              height="15"
+              viewBox="0 0 20 20"
+              aria-labelledby="icon-svg-title-ChevronRight icon-svg-desc-ChevronRight"
+              role="img"
+              class="rbbb40-0 kRDtrQ"
+            >
+              <linearGradient id="ckas5278hvfqw27occz0vc5eg" x1="0" x2="100%" y1="0" y2="0">
+                <stop offset="0" stop-color="#1C1C1C" />
+                <stop offset="100%" stop-color="#1C1C1C" />
+              </linearGradient>
+              <title id="icon-svg-title-ChevronRight">Chevron Right icon</title>
+              <desc id="icon-svg-desc-ChevronRight">It is an icon with title Chevron Right</desc>
+              <title>chevron-right</title>
+              <path
+                d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"
+                fill="url(#ckas5278hvfqw27occz0vc5eg)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="__card">
+            <h5>Ghana</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1C1C1C"
+              width="15"
+              height="15"
+              viewBox="0 0 20 20"
+              aria-labelledby="icon-svg-title-ChevronRight icon-svg-desc-ChevronRight"
+              role="img"
+              class="rbbb40-0 kRDtrQ"
+            >
+              <linearGradient id="ckas5278hvfqw27occz0vc5eg" x1="0" x2="100%" y1="0" y2="0">
+                <stop offset="0" stop-color="#1C1C1C" />
+                <stop offset="100%" stop-color="#1C1C1C" />
+              </linearGradient>
+              <title id="icon-svg-title-ChevronRight">Chevron Right icon</title>
+              <desc id="icon-svg-desc-ChevronRight">It is an icon with title Chevron Right</desc>
+              <title>chevron-right</title>
+              <path
+                d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"
+                fill="url(#ckas5278hvfqw27occz0vc5eg)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="__card">
+            <h5>Dr Congo</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1C1C1C"
+              width="15"
+              height="15"
+              viewBox="0 0 20 20"
+              aria-labelledby="icon-svg-title-ChevronRight icon-svg-desc-ChevronRight"
+              role="img"
+              class="rbbb40-0 kRDtrQ"
+            >
+              <linearGradient id="ckas5278hvfqw27occz0vc5eg" x1="0" x2="100%" y1="0" y2="0">
+                <stop offset="0" stop-color="#1C1C1C" />
+                <stop offset="100%" stop-color="#1C1C1C" />
+              </linearGradient>
+              <title id="icon-svg-title-ChevronRight">Chevron Right icon</title>
+              <desc id="icon-svg-desc-ChevronRight">It is an icon with title Chevron Right</desc>
+              <title>chevron-right</title>
+              <path
+                d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"
+                fill="url(#ckas5278hvfqw27occz0vc5eg)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="__card">
+            <h5>Tanzania</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1C1C1C"
+              width="15"
+              height="15"
+              viewBox="0 0 20 20"
+              aria-labelledby="icon-svg-title-ChevronRight icon-svg-desc-ChevronRight"
+              role="img"
+              class="rbbb40-0 kRDtrQ"
+            >
+              <linearGradient id="ckas5278hvfqw27occz0vc5eg" x1="0" x2="100%" y1="0" y2="0">
+                <stop offset="0" stop-color="#1C1C1C" />
+                <stop offset="100%" stop-color="#1C1C1C" />
+              </linearGradient>
+              <title id="icon-svg-title-ChevronRight">Chevron Right icon</title>
+              <desc id="icon-svg-desc-ChevronRight">It is an icon with title Chevron Right</desc>
+              <title>chevron-right</title>
+              <path
+                d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"
+                fill="url(#ckas5278hvfqw27occz0vc5eg)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="__card">
+            <h5>Egypt</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1C1C1C"
+              width="15"
+              height="15"
+              viewBox="0 0 20 20"
+              aria-labelledby="icon-svg-title-ChevronRight icon-svg-desc-ChevronRight"
+              role="img"
+              class="rbbb40-0 kRDtrQ"
+            >
+              <linearGradient id="ckas5278hvfqw27occz0vc5eg" x1="0" x2="100%" y1="0" y2="0">
+                <stop offset="0" stop-color="#1C1C1C" />
+                <stop offset="100%" stop-color="#1C1C1C" />
+              </linearGradient>
+              <title id="icon-svg-title-ChevronRight">Chevron Right icon</title>
+              <desc id="icon-svg-desc-ChevronRight">It is an icon with title Chevron Right</desc>
+              <title>chevron-right</title>
+              <path
+                d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"
+                fill="url(#ckas5278hvfqw27occz0vc5eg)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="__card">
+            <h5>South Africa</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1C1C1C"
+              width="15"
+              height="15"
+              viewBox="0 0 20 20"
+              aria-labelledby="icon-svg-title-ChevronRight icon-svg-desc-ChevronRight"
+              role="img"
+              class="rbbb40-0 kRDtrQ"
+            >
+              <linearGradient id="ckas5278hvfqw27occz0vc5eg" x1="0" x2="100%" y1="0" y2="0">
+                <stop offset="0" stop-color="#1C1C1C" />
+                <stop offset="100%" stop-color="#1C1C1C" />
+              </linearGradient>
+              <title id="icon-svg-title-ChevronRight">Chevron Right icon</title>
+              <desc id="icon-svg-desc-ChevronRight">It is an icon with title Chevron Right</desc>
+              <title>chevron-right</title>
+              <path
+                d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"
+                fill="url(#ckas5278hvfqw27occz0vc5eg)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="__card">
+            <h5>Ethopia</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1C1C1C"
+              width="15"
+              height="15"
+              viewBox="0 0 20 20"
+              aria-labelledby="icon-svg-title-ChevronRight icon-svg-desc-ChevronRight"
+              role="img"
+              class="rbbb40-0 kRDtrQ"
+            >
+              <linearGradient id="ckas5278hvfqw27occz0vc5eg" x1="0" x2="100%" y1="0" y2="0">
+                <stop offset="0" stop-color="#1C1C1C" />
+                <stop offset="100%" stop-color="#1C1C1C" />
+              </linearGradient>
+              <title id="icon-svg-title-ChevronRight">Chevron Right icon</title>
+              <desc id="icon-svg-desc-ChevronRight">It is an icon with title Chevron Right</desc>
+              <title>chevron-right</title>
+              <path
+                d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"
+                fill="url(#ckas5278hvfqw27occz0vc5eg)"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="__card">
+            <h5>Angola</h5>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#1C1C1C"
+              width="15"
+              height="15"
+              viewBox="0 0 20 20"
+              aria-labelledby="icon-svg-title-ChevronRight icon-svg-desc-ChevronRight"
+              role="img"
+              class="rbbb40-0 kRDtrQ"
+            >
+              <linearGradient id="ckas5278hvfqw27occz0vc5eg" x1="0" x2="100%" y1="0" y2="0">
+                <stop offset="0" stop-color="#1C1C1C" />
+                <stop offset="100%" stop-color="#1C1C1C" />
+              </linearGradient>
+              <title id="icon-svg-title-ChevronRight">Chevron Right icon</title>
+              <desc id="icon-svg-desc-ChevronRight">It is an icon with title Chevron Right</desc>
+              <title>chevron-right</title>
+              <path
+                d="M6.98 15.94c-0.3-0.28-0.3-0.76 0-1.060l4.46-4.46-4.46-4.48c-0.3-0.28-0.3-0.76 0-1.060s0.76-0.28 1.060 0l5 5c0.28 0.3 0.28 0.78 0 1.060l-5 5c-0.3 0.3-0.78 0.3-1.060 0z"
+                fill="url(#ckas5278hvfqw27occz0vc5eg)"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row _pd fl">
+      <div>
+        <div class="_fl">
+          <h2>Ready to order ?</h2>
+          <p>
+            Browse local restaurants and businesses for delivery by
+            <br />entering your address below.
+          </p>
+        </div>
+        <div>
+          <div class="_search">
+            <input type="text" placeholder="e.g Lekki" class="input" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg">
+      <div class="row _pd">
+        <div class="col-md-2.4">
+          <b>Grab Ur Bite</b>
+        </div>
+        <div class="col-md-2.4">
+          <b>Contact Us</b>
+          <p>(+800) 123 456 7890</p>
+          <p>manager@shop.com</p>
+          <p>Location Store</p>
+        </div>
+        <div class="col-md-2.4">
+          <b>Policies & Info</b>
+          <p>Terms Conditions</p>
+          <p>Policy for Sellers</p>
+          <p>Policy for Buyers</p>
+          <p>Shipping & Refund</p>
+          <p>Wholesale Policy</p>
+        </div>
+        <div class="col-md-2.4">
+          <b>Quick Links</b>
+          <p>Seller Login</p>
+          <p>Seller Sign up</p>
+          <p>Seller Handbook</p>
+          <p>Seller Control</p>
+          <p>Panel Seller FAQs</p>
+        </div>
+        <div class="col-md-2.4">
+          <b>Subscribe now</b>
         </div>
       </div>
     </div>
@@ -124,6 +386,51 @@ export default {
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
+}
+
+.fl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #17bebb;
+  margin-left: -0 !important;
+  margin-right: -0 !important;
+}
+
+.bg {
+  background: #2d294d;
+  color: white;
+}
+.bg,
+p:hover {
+  cursor: pointer;
+}
+
+.bg p {
+  font-size: 14px;
+}
+
+.bg p:hover {
+  opacity: 0.5;
+}
+
+._fl h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+._fl p {
+  text-align: center;
+}
+.npd {
+  padding-left: 0 !important;
+  /* top: -60px; */
+}
+
+._op {
+  opacity: 0.7;
 }
 .headings {
   font-size: 48px;
@@ -207,7 +514,6 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 15px;
 }
 .subtitle {
   font-weight: 300;
@@ -225,6 +531,7 @@ export default {
 
 .img {
   width: 400px;
+  /* margin-top: -80px; */
 }
 .button--green {
   display: inline-block;
@@ -236,7 +543,7 @@ export default {
 }
 ._container {
   background: #ffa81d;
-  height: 70vh;
+  height: 80vh;
 }
 .button--green:hover {
   color: #fff;
@@ -293,6 +600,27 @@ p {
   border: none;
 }
 
+.__card {
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 16px 24px;
+  border-radius: 0.5rem;
+  background: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(232, 232, 232);
+  /* max-width: 33.3333%; */
+}
+
+.__card:hover {
+  box-shadow: rgba(28, 28, 28, 0.08) 0px 3.5px 2.85246px;
+}
 .para-text {
   padding-top: 100px;
 }

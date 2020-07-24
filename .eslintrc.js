@@ -9,7 +9,7 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
-    'eslint:recommended',
+    'prettier/prettier',
     'prettier/vue',
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended'
